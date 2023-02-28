@@ -5,6 +5,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
         <style>
             #techstack li {
              list-style-type:upper-latin;
@@ -22,10 +25,43 @@
             }
             #techHedding{
                 text-decoration-style: dotted;
+                font-family: 'Tilt Warp', cursive;
+                word-spacing: 5px;
+                letter-spacing: 2px;
+                line-height: 25px;
+                text-align: center;
+                border: 2px solid red;
+                padding: 10px 20px;
+               margin-bottom: 50px;
                  
             }
             body{
                 background-image:url('my clg1.jpg');
+            }
+            a{
+                border: 2px solid blue;
+                <!-- display:inline-block; -->
+                height: 200px;width: 200px;
+                margin: 20px;
+                text-align: center;
+                <!-- padding-top: 100px; -->
+               
+             
+                
+            }
+           a:visited{
+                color: rgb(216, 100, 203);
+
+            }
+           a:hover{
+                color: aqua;
+            }
+            input:focus{
+                padding: 5px;
+              border: 2px solid red;
+            }
+            input:required{
+                color: aqua;
             }
         </style>
     </head>
@@ -61,8 +97,15 @@
             </ol>
             <li>Rainy</li>
             <ul>
-                <li></li>
+                <li>apple</li>
+                <li>egg</li>
+                <li>vada pav</li>
             </ul>
         </ol>
+        <a href="https://www.google.co.in/">Google</a>
+        <a href="https://www.facebook.com/">facebook</a><br>
+        <input type="email " placeholder="Enter the Email " required><br>
+        <input type="text " placeholder="Enter Your Full Name"><br>
+        <button>Submit</button>
     </body>
 </html>
